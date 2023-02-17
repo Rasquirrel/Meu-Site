@@ -1,26 +1,30 @@
 @charset "UTF-8";
 
 body {
+    background-color: #F6E8EA;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
 }
 
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+main {
+    
 }
 
-ul {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+main > header {
+    width: 90%;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+    background-color: #EF626C;
+    text-align: center;
+    border-radius: 19px;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
+.titulo {
+    color: #22181C;
+    font-size: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.subtitulo {
+    color: #22181C;
+    font-size: 20px;
 }
